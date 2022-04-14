@@ -30,7 +30,7 @@ python3 -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Выполнить миграции:
+Выполнить миграции из директории yatube_api:
 
 ```
 python3 manage.py migrate
@@ -40,4 +40,18 @@ python3 manage.py migrate
 
 ```
 python3 manage.py runserver
+```
+
+### Примеры запросов:
+
+Просмотр всех эндпоинтов:
+
+```
+http://127.0.0.1:8000/api/v1/
+```
+
+Подробнее о возможностях api yatube:
+
+```
+http://127.0.0.1:8000/redoc/
 ```
